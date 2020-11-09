@@ -13,6 +13,7 @@ const { create, findAll, findOne, update, remove, removeAll } = gradeController;
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
+    console.log('Conectado ao MongoDB');
   } catch (error) {
     process.exit();
   }
